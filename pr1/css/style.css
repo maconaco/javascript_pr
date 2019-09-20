@@ -1,0 +1,19 @@
+section {
+  margin-bottom: 4rem;
+}
+
+.animation.show {
+  animation: show 0.3s linear 1 forwards;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
